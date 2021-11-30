@@ -1,0 +1,61 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+main {
+    flex: 1 0 auto;
+}
+
+#logoxxo{
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 55px;
+}
+/* ================================
+                HEADER 
+   ================================ */ 
+
+.bg-brand{
+  background-color: orange;
+}
+
+
+
+/* ================================
+              CONTAINER 
+   ================================ */ 
+
+
+
+/* ================================
+                FOOTER 
+   ================================ */ 
+
+.footer{
+  color: white;
+  background-color: #d0771b;
+  padding: 0.5rem 0;
+  height: 4rem;
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+.footer a{
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* no underline */
+}
+
+.footer-copyright {
+  padding-top: 1rem;
+}
+
+
+.footer_box {
+  margin: auto;
+}
+
+.header__logo{
+  margin: auto;
+}
